@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\ooffl\\source\\repos\\trpois4\\\u0442\u0440\u043F\u043E\\main\\main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Form1.cs",
+              "RelativeDocumentMoniker": "main\\Form1.cs",
+              "ToolTip": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Form1.cs [Design]",
+              "RelativeToolTip": "main\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:21:33.244Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
