@@ -19,24 +19,36 @@ namespace main
 
         private void simplex_Load(object sender, EventArgs e)
         {
-
+            dataGridView1.RowTemplate.Height = 22;
+            dataGridView1.AllowUserToAddRows = false;
         }
 
         private void numericColumns_ValueChanged(object sender, EventArgs e)
         {
-            int newColumnCount = (int)numericColumns.Value;
-
+            int newColumnCount = (int)numericColumns.Value+2;
 
             while (dataGridView1.Columns.Count > newColumnCount)
             {
-                dataGridView1.Columns.RemoveAt(dataGridView1.Columns.Count - 1);
+                dataGridView1.Columns.RemoveAt(dataGridView1.Columns.Count -1 );
             }
 
 
             while (dataGridView1.Columns.Count < newColumnCount)
             {
-                int colIndex = dataGridView1.Columns.Count;
-                dataGridView1.Columns.Add("Column" + colIndex, "Колонка " + (colIndex + 1));
+                int colIndex = dataGridView1.Columns.Count -2; // 3
+                dataGridView1.Columns.Add("Column" + colIndex, "X" + (colIndex + 1));
+            }
+            // для функции 
+            while (dataGridView2.Columns.Count > newColumnCount-2)
+            {
+                dataGridView2.Columns.RemoveAt(dataGridView1.Columns.Count -2);
+            }
+
+
+            while (dataGridView2.Columns.Count < newColumnCount-2)
+            {
+                int colIndex = dataGridView2.Columns.Count;
+                dataGridView2.Columns.Add("Column" + colIndex, "X" + (colIndex + 1));
             }
         }
 
@@ -69,17 +81,19 @@ namespace main
             dataGridView1.Rows.Clear();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                checkBox1.Text = ">=";
-            }
-            else
-            {
-                checkBox1.Text = "<=";
-            }
 
+        }
+
+        private void dataGridView1_DefaultValuesNeeded(object sender, DataGridViewRowEventArgs e)
+        {
+            int maxRows = 10;
+
+            if (dataGridView1.Rows.Count > maxRows)
+            {
+                dataGridView1.Rows.RemoveAt(dataGridView1.Rows.Count - 1);
+            }
         }
     }
 }
