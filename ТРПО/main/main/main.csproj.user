@@ -4,6 +4,9 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="simplex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="TestUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

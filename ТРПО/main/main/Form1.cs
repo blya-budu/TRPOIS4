@@ -23,7 +23,7 @@ namespace main
 
         private void симплексметодToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            LoadControl(new simplex());
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
