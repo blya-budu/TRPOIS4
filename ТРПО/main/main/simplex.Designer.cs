@@ -46,6 +46,7 @@
             label5 = new Label();
             radioButtonMax = new RadioButton();
             radioButtonMin = new RadioButton();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)numericColumns).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericRows).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -188,6 +189,7 @@
             dataGridView2.Name = "dataGridView2";
             dataGridView2.Size = new Size(1083, 49);
             dataGridView2.TabIndex = 11;
+            dataGridView2.Scroll += dataGridView2_Scroll;
             // 
             // label5
             // 
@@ -221,10 +223,21 @@
             radioButtonMin.Text = "Min";
             radioButtonMin.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            button1.Location = new Point(18, 511);
+            button1.Name = "button1";
+            button1.Size = new Size(1083, 23);
+            button1.TabIndex = 15;
+            button1.Text = "Решить";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // simplex
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(button1);
             Controls.Add(radioButtonMin);
             Controls.Add(radioButtonMax);
             Controls.Add(label5);
@@ -271,5 +284,6 @@
         private Label label5;
         private RadioButton radioButtonMax;
         private RadioButton radioButtonMin;
+        private Button button1;
     }
 }
