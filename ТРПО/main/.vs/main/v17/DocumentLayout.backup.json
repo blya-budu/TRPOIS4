@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\andrey\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|C:\\Users\\andrey\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\andrey\\source\\repos\\trpois4\\\u0442\u0440\u043F\u043E\\main\\main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\trpois4new\\\u0442\u0440\u043F\u043E\\main\\main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|C:\\Users\\andrey\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,37 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "simplex.cs",
-              "DocumentMoniker": "C:\\Users\\andrey\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs",
               "RelativeDocumentMoniker": "main\\simplex.cs",
-              "ToolTip": "C:\\Users\\andrey\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs",
               "RelativeToolTip": "main\\simplex.cs",
-              "ViewState": "AgIAAB8BAAAAAAAAAAAQwEoBAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAN0BAAAAAAAAAAAowM4BAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:55:18.525Z",
+              "WhenOpened": "2025-04-10T11:56:39.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "simplex.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\andrey\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs",
               "RelativeDocumentMoniker": "main\\simplex.cs",
-              "ToolTip": "C:\\Users\\andrey\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "main\\simplex.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:38:35.488Z",
+              "WhenOpened": "2025-04-10T11:56:21.416Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\andrey\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Form1.cs",
-              "RelativeDocumentMoniker": "main\\Form1.cs",
-              "ToolTip": "C:\\Users\\andrey\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "main\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:09:11.799Z"
             }
           ]
         }

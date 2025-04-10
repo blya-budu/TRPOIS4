@@ -186,47 +186,221 @@ namespace main
                 rowValues[i] = Convert.ToInt32(dataGridView2.Rows[rowIndex].Cells[i].Value);
             }
 
-            
+
             // для случая когда <=
-            if (CheckAllCheckBoxesFalse())
+            if (radioButtonMax.Checked == true)
             {
-                // объеденим все массивы в одну матрицу
-                int n = matrix.GetLength(1);  
-                int m = matrix.GetLength(0);    
-
-                double[,] tableau = new double[m + 1, n + m + 1]; 
-
-                
-                for (i = 0; i < m; i++)
+                if (CheckAllCheckBoxesFalse())
                 {
-                    for (int j = 0; j < n; j++)
+                    // объеденим все массивы в одну матрицу
+                    int n = matrix.GetLength(1);
+                    int m = matrix.GetLength(0);
+
+                    double[,] tableau = new double[m + 1, n + m + 1];
+
+
+                    for (i = 0; i < m; i++)
                     {
-                        tableau[i, j] = matrix[i, j]; 
+                        for (int j = 0; j < n; j++)
+                        {
+                            tableau[i, j] = matrix[i, j];
+                        }
+
+                        tableau[i, n + i] = 1;
+                        tableau[i, n + m] = columnValues[i];
                     }
 
-                    tableau[i, n + i] = 1; 
-                    tableau[i, n + m] = columnValues[i]; 
-                }
 
-               
-                for (int j = 0; j < n; j++)
+                    for (int j = 0; j < n; j++)
+                    {
+                        tableau[m, j] = -rowValues[j];
+                    }
+
+                    PerformSimplex(tableau);
+
+
+                    double resFunc = tableau[m, n + m];
+                    string resVar = "";
+                    int newRowCount = (int)numericRows.Value;
+
+                    for (i = 0; i < tableau.GetLength(0) - newRowCount + 1; ++i)
+                    {
+                        resVar += tableau[i, tableau.GetLength(1) - 1].ToString() + ", ";
+                    }
+                    string resultTable = GetTableString(tableau);
+
+                    MessageBox.Show($"Переменные: {resVar} Значение функции: {resFunc} \n{resultTable}");
+                }
+                // для случая <= =>
+
+                else
                 {
-                    tableau[m, j] = -rowValues[j]; 
+                    // узнаем строки где >=
+                    int newRowCount = (int)numericRows.Value;
+                    int[] saveIndex = new int[newRowCount];
+                    i = 0;
+                    foreach (DataGridViewRow row in dataGridView1.Rows)
+                    {
+                        DataGridViewCheckBoxCell checkBoxCell = row.Cells[1] as DataGridViewCheckBoxCell;
+
+                        if (checkBoxCell != null && checkBoxCell.Value != null && (bool)checkBoxCell.Value == true)
+                        {
+                            saveIndex[i] = 1;
+                        }
+                        i++;
+                    }
+                    // создаем таблицу полную 
+                    int n = matrix.GetLength(1);
+                    int m = matrix.GetLength(0);
+
+                    double[,] tableau = new double[m + 1, n + m + 1];
+                    for (i = 0; i < m; i++)
+                    {
+                        for (int j = 0; j < n; j++)
+                        {
+                            if (saveIndex[i] == 1)
+                                tableau[i, j] = -1 * matrix[i, j];
+                            else
+                                tableau[i, j] = matrix[i, j];
+                        }
+
+                        tableau[i, n + i] = 1;
+                        if (saveIndex[i] == 1)
+                            tableau[i, n + m] = -1 * columnValues[i];
+                        else
+                            tableau[i, n + m] = columnValues[i];
+                    }
+
+
+                    for (int j = 0; j < n; j++)
+                    {
+                        tableau[m, j] = -rowValues[j];
+                    }
+                    PerformSimplex(tableau);
+
+
+                    double resFunc = tableau[m, n + m];
+                    string resVar = "";
+                    int newColumnCount = (int)numericColumns.Value;
+                    int RowsCount = (int)numericRows.Value;
+
+                    for (i = 0; i < newColumnCount; i++)
+                    {
+                        resVar += tableau[tableau.GetLength(0) - 2 - i, tableau.GetLength(1) - 1].ToString() + ", ";
+                    }
+
+
+                    string resultTable = GetTableString(tableau);
+
+                    MessageBox.Show($"Переменные: {resVar} Значение функции: {resFunc} \n{resultTable}");
                 }
-                PerformSimplex(tableau);
+            }
 
-
-                double resFunc = tableau[m, n+m];
-                string resVar = "";
-                int newRowCount = (int)numericRows.Value;
-
-                for (i = 0; i < tableau.GetLength(0) - newRowCount + 1; ++i) 
+            // решение задач с min
+            if (radioButtonMin.Checked == true)
+            {
+                if (CheckAllCheckBoxesFalse())
                 {
-                    resVar += tableau[i, tableau.GetLength(1) -1].ToString() + ", ";
-                }
-                string resultTable = GetTableString(tableau);
+                    // объеденим все массивы в одну матрицу
+                    int n = matrix.GetLength(1);
+                    int m = matrix.GetLength(0);
 
-                MessageBox.Show($"Переменные: {resVar} Значение функции: {resFunc} \n{resultTable}");
+                    double[,] tableau = new double[m + 1, n + m + 1];
+
+
+                    for (i = 0; i < m; i++)
+                    {
+                        for (int j = 0; j < n; j++)
+                        {
+                            tableau[i, j] = matrix[i, j];
+                        }
+
+                        tableau[i, n + i] = 1;
+                        tableau[i, n + m] = columnValues[i];
+                    }
+
+
+                    for (int j = 0; j < n; j++)
+                    {
+                        tableau[m, j] = rowValues[j];
+                    }
+                    PerformSimplex(tableau);
+
+
+                    double resFunc = tableau[m, n + m];
+                    string resVar = "";
+                    int newRowCount = (int)numericRows.Value;
+
+                    for (i = 0; i < tableau.GetLength(0) - newRowCount + 1; ++i)
+                    {
+                        resVar += tableau[i, tableau.GetLength(1) - 1].ToString() + ", ";
+                    }
+                    string resultTable = GetTableString(tableau);
+
+                    MessageBox.Show($"Переменные: {resVar} Значение функции: {-resFunc} \n{resultTable}");
+                }
+                else 
+                {
+                    // узнаем строки где >=
+                    int newRowCount = (int)numericRows.Value;
+                    int[] saveIndex = new int[newRowCount];
+                    i = 0;
+                    foreach (DataGridViewRow row in dataGridView1.Rows)
+                    {
+                        DataGridViewCheckBoxCell checkBoxCell = row.Cells[1] as DataGridViewCheckBoxCell;
+
+                        if (checkBoxCell != null && checkBoxCell.Value != null && (bool)checkBoxCell.Value == true)
+                        {
+                            saveIndex[i] = 1;
+                        }
+                        i++;
+                    }
+                    // создаем таблицу полную 
+                    int n = matrix.GetLength(1);
+                    int m = matrix.GetLength(0);
+
+                    double[,] tableau = new double[m + 1, n + m + 1];
+                    for (i = 0; i < m; i++)
+                    {
+                        for (int j = 0; j < n; j++)
+                        {
+                            if (saveIndex[i] == 1)
+                                tableau[i, j] = -1 * matrix[i, j];
+                            else
+                                tableau[i, j] = matrix[i, j];
+                        }
+
+                        tableau[i, n + i] = 1;
+                        if (saveIndex[i] == 1)
+                            tableau[i, n + m] = -1 *columnValues[i];
+                        else
+                            tableau[i, n + m] = columnValues[i];
+                    }
+
+
+                    for (int j = 0; j < n; j++)
+                    {
+                        tableau[m, j] = rowValues[j];
+                    }
+                    PerformSimplex(tableau);
+
+
+                    double resFunc = tableau[m, n + m];
+                    string resVar = "";
+                    int newColumnCount = (int)numericColumns.Value;
+                    int RowsCount = (int)numericRows.Value;
+
+                    for (i = 0; i < newColumnCount; i++)
+                    {
+                        resVar += tableau[tableau.GetLength(0) - 2 - i, tableau.GetLength(1) - 1].ToString() + ", ";
+                    }
+
+
+                    string resultTable = GetTableString(tableau);
+
+                    MessageBox.Show($"Переменные: {resVar} Значение функции: {resFunc} \n{resultTable}");
+                }
+
             }
         }
         //функция для проверки <= >= во 2 столбце
@@ -250,7 +424,7 @@ namespace main
             }
         }
 
-        // для решения задачи с <= (max)
+        // для решения задачи с max
         void PerformSimplex(double[,] tableau)
         {
             int rows = tableau.GetLength(0);
@@ -259,7 +433,7 @@ namespace main
             while (true)
             {
                 // 1. Поиск ведущего столбца
-                int pivotCol = -1; // это ведующий столбец
+                int pivotCol = -1;
                 double minValue = 0;
 
                 for (int j = 0; j < cols - 1; j++)
@@ -274,14 +448,18 @@ namespace main
                 if (pivotCol == -1) break; // Оптимум найден
 
                 // 2. Поиск ведущей строки
-                double minRatio = double.PositiveInfinity; 
-                int pivotRow = -1; // ведующая строка
+                double minRatio = double.PositiveInfinity;
+                int pivotRow = -1;
+
+                bool hasPositive = false; 
 
                 for (int i = 0; i < rows - 1; i++)
                 {
-                    if (tableau[i, pivotCol] > 0)
+                    double element = tableau[i, pivotCol];
+                    if (element > 0)
                     {
-                        double ratio = tableau[i, cols - 1] / tableau[i, pivotCol];
+                        hasPositive = true;
+                        double ratio = tableau[i, cols - 1] / element;
                         if (ratio < minRatio)
                         {
                             minRatio = ratio;
@@ -290,17 +468,24 @@ namespace main
                     }
                 }
 
+                // Диагностика ситуаций
+                if (!hasPositive)
+                {
+                    MessageBox.Show("Целевая функция не ограничена — бесконечно много решений.", "Ошибка");
+                    return;
+                }
+
                 if (pivotRow == -1)
                 {
-                    MessageBox.Show("Решение не ограничено!", "Ошибка");
+                    MessageBox.Show("Нет допустимого решения — противоречивые ограничения.", "Ошибка");
                     return;
                 }
 
                 // 3. Преобразование таблицы
-                double pivot = tableau[pivotRow, pivotCol]; // ведующая ячейка 
+                double pivot = tableau[pivotRow, pivotCol];
 
                 for (int j = 0; j < cols; j++)
-                    tableau[pivotRow, j] /= pivot; 
+                    tableau[pivotRow, j] /= pivot;
 
                 for (int i = 0; i < rows; i++)
                 {
