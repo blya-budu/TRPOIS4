@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\ooffl\\source\\repos\\trpois4\\\u0442\u0440\u043F\u043E\\main\\main\\\u0448\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\\u0448\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\ooffl\\source\\repos\\trpois4\\\u0442\u0440\u043F\u043E\\main\\main\\dekster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\dekster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\\u0448\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\\u0448\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\dekster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\dekster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\ooffl\\source\\repos\\trpois4\\\u0442\u0440\u043F\u043E\\main\\main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,27 +34,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs",
-              "DocumentMoniker": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs",
-              "RelativeDocumentMoniker": "main\\\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs",
-              "ToolTip": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs",
-              "RelativeToolTip": "main\\\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Form1.cs",
+              "RelativeDocumentMoniker": "main\\Form1.cs",
+              "ToolTip": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Form1.cs",
+              "RelativeToolTip": "main\\Form1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wDYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T09:40:30.634Z",
+              "WhenOpened": "2025-04-07T08:27:41.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dekster.cs",
+              "DocumentMoniker": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Dekster.cs",
+              "RelativeDocumentMoniker": "main\\Dekster.cs",
+              "ToolTip": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Dekster.cs",
+              "RelativeToolTip": "main\\Dekster.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAD4v3EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:15:17.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs",
-              "RelativeDocumentMoniker": "main\\\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs",
-              "ToolTip": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs [Design]",
-              "RelativeToolTip": "main\\\u0428\u0438\u0444\u0440\u044B_\u0437\u0430\u043C\u0435\u043D\u044B.cs [Design]",
+              "Title": "Dekster.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Dekster.cs",
+              "RelativeDocumentMoniker": "main\\Dekster.cs",
+              "ToolTip": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Dekster.cs [Design]",
+              "RelativeToolTip": "main\\Dekster.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T09:40:24.847Z"
+              "WhenOpened": "2025-04-07T07:36:51.329Z"
             },
             {
               "$type": "Document",
@@ -61,7 +78,7 @@
               "ToolTip": "C:\\Users\\ooffl\\source\\repos\\TRPOIS4\\\u0422\u0420\u041F\u041E\\main\\main\\Form1.cs [Design]",
               "RelativeToolTip": "main\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T09:28:14.86Z"
+              "WhenOpened": "2025-04-07T08:27:36.646Z"
             }
           ]
         }

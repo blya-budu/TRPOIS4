@@ -49,5 +49,10 @@ namespace main
         {
             LoadControl(new Шифры_замены());
         }
+
+        private void алгоритмДейкрстрыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadControl(new Dekster());
+        }
     }
 }

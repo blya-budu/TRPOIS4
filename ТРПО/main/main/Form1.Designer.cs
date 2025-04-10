@@ -88,6 +88,7 @@
             алгоритмДейкрстрыToolStripMenuItem.Name = "алгоритмДейкрстрыToolStripMenuItem";
             алгоритмДейкрстрыToolStripMenuItem.Size = new Size(340, 26);
             алгоритмДейкрстрыToolStripMenuItem.Text = "Алгоритм Дейкрстры";
+            алгоритмДейкрстрыToolStripMenuItem.Click += алгоритмДейкрстрыToolStripMenuItem_Click;
             // 
             // динамическоеПрограммированиеToolStripMenuItem
             // 
@@ -140,7 +141,7 @@
             panelMain.Location = new Point(0, 30);
             panelMain.Margin = new Padding(3, 4, 3, 4);
             panelMain.Name = "panelMain";
-            panelMain.Size = new Size(896, 718);
+            panelMain.Size = new Size(896, 401);
             panelMain.TabIndex = 1;
             panelMain.Paint += panel1_Paint;
             // 
@@ -148,7 +149,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(896, 748);
+            ClientSize = new Size(896, 431);
             Controls.Add(panelMain);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;

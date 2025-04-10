@@ -52,3 +52,5 @@ C:\Users\ooffl\Source\Repos\TRPOIS4\ТРПО\main\main\obj\Debug\net8.0-windows\
 C:\Users\ooffl\Source\Repos\TRPOIS4\ТРПО\main\main\obj\Debug\net8.0-windows\main.pdb
 C:\Users\ooffl\Source\Repos\TRPOIS4\ТРПО\main\main\obj\Debug\net8.0-windows\main.genruntimeconfig.cache
 C:\Users\ooffl\Source\Repos\TRPOIS4\ТРПО\main\main\obj\Debug\net8.0-windows\ref\main.dll
+C:\Users\ooffl\Source\Repos\TRPOIS4\ТРПО\main\main\obj\Debug\net8.0-windows\main.Dekster.resources
+C:\Users\ooffl\Source\Repos\TRPOIS4\ТРПО\main\main\obj\Debug\net8.0-windows\main.Несколько_выборок.resources
