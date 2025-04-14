@@ -10,6 +10,9 @@
     <Compile Update="TestUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="ViborkaTwo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Шифры_замены.cs">
       <SubType>UserControl</SubType>
     </Compile>

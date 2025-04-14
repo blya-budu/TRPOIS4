@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\trpois4new\\\u0442\u0440\u043F\u043E\\main\\main\\viborkatwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\viborkatwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\trpois4new\\\u0442\u0440\u043F\u043E\\main\\main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\trpois4new\\\u0442\u0440\u043F\u043E\\main\\main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\trpois4new\\\u0442\u0440\u043F\u043E\\main\\main\\viborkatwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0AB3C-CC89-4D90-AD33-476D57C5A784}|main\\main.csproj|solutionrelative:main\\viborkatwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "simplex.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs",
-              "RelativeDocumentMoniker": "main\\simplex.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs",
-              "RelativeToolTip": "main\\simplex.cs",
-              "ViewState": "AgIAAN0BAAAAAAAAAAAowM4BAAAtAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ViborkaTwo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\ViborkaTwo.cs",
+              "RelativeDocumentMoniker": "main\\ViborkaTwo.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\ViborkaTwo.cs",
+              "RelativeToolTip": "main\\ViborkaTwo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T11:56:39.907Z",
+              "WhenOpened": "2025-04-11T16:25:50.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "simplex.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs",
               "RelativeDocumentMoniker": "main\\simplex.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\simplex.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "main\\simplex.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T11:56:21.416Z",
+              "WhenOpened": "2025-04-11T16:21:29.925Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViborkaTwo.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\ViborkaTwo.cs",
+              "RelativeDocumentMoniker": "main\\ViborkaTwo.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\TRPOIS4new\\\u0422\u0420\u041F\u041E\\main\\main\\ViborkaTwo.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "main\\ViborkaTwo.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:17:17.123Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]

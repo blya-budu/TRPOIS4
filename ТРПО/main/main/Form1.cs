@@ -11,7 +11,7 @@ namespace main
 
         private void оценкаВыборокToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            LoadControl(new ViborkaTwo());
         }
         private void LoadControl(UserControl userControl)
         {
